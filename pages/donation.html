@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+  	<title>Parish</title>
+    <link rel="shortcut icon" href="../images/logoerc.jpg">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-grid.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-reboot.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/erc_ui.css" rel="stylesheet">
+    <link href="../css/index.css" rel="stylesheet">
+    <link href="../css/animate.css" rel="stylesheet">
+    <link href="../fonts/style.css" rel="stylesheet">
+    <link href="../css/sweetalert.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Chivo:300,400,700|Permanent+Marker&display=swap" rel="stylesheet">
+  </head>
+
+    <body id="page-top" class="index">
+
+     <!-- NAVIGATION BAR STARTS-->
+    <div id="sticky-anchor"></div>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light erc_navbar" id="sticky">
+        <div class="container-fluid erc_container">
+          <a class="navbar-brand" href="#">
+            <img src="../images/logoerc.png" height="48px">
+          <span class="txt_subtitle fnt_black ml-3">Evangelical Restoration Church</span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav ml-auto">
+
+              <li class="nav-item">
+                <a class="nav-link main_option" href="../index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+
+               <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle main_option" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="about.html">Church</a>
+                  <a class="dropdown-item" href="administration.html">Administration</a>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle main_option" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Commissions
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="commissions.html">Family Care</a>
+                  <a class="dropdown-item" href="discipleship.html">Discipleship</a>
+                  <a class="dropdown-item" href="fellowship.html">Fellowship</a>
+                  <a class="dropdown-item" href="homeCell.html">Home Cell</a>
+                  <a class="dropdown-item" href="support.html">Support</a>
+                </div>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link main_option" href="sermons.html">Sermons</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link main_option" href="event.html">Events</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="btn btn_nav" href="donation.html">DONATE</a>
+              </li>
+
+            </ul> 
+          </div> 
+        </div>
+      </nav>
+
+      <!-- NAVIGATION BAR ENDS-->
+
+        <!-- SECTION LANDING STARTS-->
+      <div class="container-fluid erc_container" id="section_donation">
+        <div class="container text-center ">
+            <div class="col-12">
+                <p class=" txt_white txt_title fnt_black fnt_permanent">DONATE</p>
+              </div>
+            <div class="col-12">
+                <form id="donation_form">
+                    <div class="container" style="padding:24px 64px">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-124 text-left">
+                            <div class="form-group">
+                                <label class="txt_black txt_content fnt_black mr-auto" for="inputOfferings">Select Offerings :</label> 
+                                <select id="inputOfferings" class="form-control">
+                                  <option selected> Choose ...</option>
+                                  <option>1/10</option>
+                                  <option>Amashimwe</option>
+                                  <option>Social</option>
+                                  <option>KPM</option>
+                                  <option>Construction</option>
+                                  <option>Amaturo_asanzwe</option>
+                                </select>       
+                          </div>
+                          <div class="form-group">
+                                <div class=" btn-group-toggle" data-toggle="buttons">
+                                  <label class="btn btn btn-outline-dark active" style="border-radius: 56px;padding: 6px 24px;font-size: 14px;">
+                                    <input type="radio" name="options" id="option1" checked>PLEGDE
+                                  </label>
+                                  <label class="btn btn btn-outline-dark" style="border-radius: 56px;padding: 6px 24px;font-size: 14px;">
+                                    <input type="radio" name="options" id="option2">GIVE NOW
+                                  </label>
+                                </div>
+
+                          </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12 text-left">
+                           <div class="form-group">
+                              <label class="txt_black txt_content fnt_black mr-auto" for="exampleInputEmail1">Enter Amount : </label>
+                              <div class="input-group mb-3">
+                              
+                              <div class="input-group-append">
+                                <button class="btn btn_small_grey txt_content" type="button">Frw</button>
+                              </div>
+                              <input type="text" class="form-control filter_input txt_content txt_black" placeholder="0.00" style="text-align:right;">
+                            </div>      
+                            </div> 
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                          <div class="form-group">
+                              <label class="txt_black txt_content fnt_black mr-auto" for="exampleInputEmail1">Mode of Payment : </label>
+                              <select id="inputPayment" class="form-control">
+                                  <option selected> MTN</option>
+                                  <option>MasterCard</option>
+                                  <option>Airtel</option>
+                                  <option>VISA Card</option>
+                                </select>       
+                            </div> 
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="container-fluid pad0" style="background-color: #e9e9e9;">
+                    <div class="container" style="padding:24px 64px">
+                        <div class="row">
+                            <div class="col-6 text-justify">
+                                <label class="txt_black txt_content fnt_black mr-auto" for="exampleInputEmail1 mr-auto">Personal Information</label>
+                                 <div class="form-group">
+                                    <div class="form-row">
+                                        <div class="col-7">
+                                           <input type="email" class="form-control" placeholder="Name">  
+                                        </div>
+                                        <div class="col">
+                                          <input type="text" class="form-control" placeholder="Phone number">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="txt_black txt_content fnt_black mr-auto" for="exampleInputEmail1 mr-auto">Address :</label>
+                                    <div class="form-row">
+                                        <div class="col-7">
+                                          <select id="inputCountry" class="form-control">
+                                            <option selected> Rwanda</option>
+                                            <option>Belgique</option>
+                                            <option>Canada</option>
+                                            <option>France</option>
+                                          </select> 
+                                        </div>
+                                        <div class="col">
+                                          <select id="inputCapital" class="form-control">
+                                            <option selected> Kigali</option>
+                                            <option>Bruxelles</option>
+                                            <option>Ottawa</option>
+                                            <option>PAris</option>
+                                          </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 text-justify">
+                                <div class="form-group text-align-left">
+                                    <label class="txt_black txt_content fnt_black" for="exampleInputEmail1 ">Donation Policy</label><br/>
+                                    <div class="form-group">
+
+                                        <small id="emailHelp" class="form-text text-muted">Dear giver,We'll never share your email or private informations with anyone else.</small>
+                                        <small id="emailHelp" class="form-text text-muted">
+                                          By checking the box below, I acknowledge that i am making a donation and that the amount i have selected above will be charged to my account  
+                                        </small>
+                                    </div>
+                                    <div class="form-group form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label txt_black txt_content fnt_black" for="exampleCheck1">I Aggree</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12 text-right">
+                            <button type="submit" class="btn btn_nav">DONATE</button>
+                        </div>
+                    </div>
+                </div>
+                    
+                </form>
+            </div>
+         <!--  <div class="col-12 mabo32">
+            <p class="txt_white txt_title">Welcome to</p>
+            <p class="txt_white txt_head mabo32">THE CHURCH FAMILY</p>
+            <p class="txt_white txt_subtitle"></p>
+          </div>
+          <div class="col-12">
+              <a class="btn btn_secondary mx-2" href="#">Watch Online</a>
+              <a class="btn btn_outline mx-2" href="pages/im_new.html">I'm New</a>
+            </div> -->
+        </div>
+      </div>
+     
+      <!-- SECTION LANDING ENDS-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="../js/jquery.js"></script>
+        <script src="../js/owl.carousel.min.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/sweetalert.min.js"></script>
+        <script src="../js/wow.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+        <script>
+          function run(interval, frames) {
+              var int = 1;
+              
+              function func() {
+                  document.getElementById('h').id = "b"+int;
+                  int++;
+                  if(int === frames) { int = 1; }
+              }
+              
+              var swap = window.setInterval(func, interval);
+          }
+
+          run(1000, 10); //milliseconds, frames
+
+        </script>
+
+
+      <script>
+        function sticky_relocate() {
+          var window_top = $(window).scrollTop();
+          var div_top = $('#sticky-anchor').offset().top;
+          if (window_top > div_top) {
+            $('#sticky').addClass('stick');
+            $('#sticky-anchor').height($('#sticky').outerHeight());
+          } else {
+            $('#sticky').removeClass('stick');
+            $('#sticky-anchor').height(0);
+          }
+        }
+
+        $(function() {
+          $(window).scroll(sticky_relocate);
+          sticky_relocate();
+        });
+      </script>
+
+
+        <script>
+          $(document).ready(function() {
+     
+          var owl = $("#owl-demo");
+         
+          owl.owlCarousel();
+         
+          // Custom Navigation Events
+          $(".next").click(function(){
+            owl.trigger('owl.next');
+          })
+          $(".prev").click(function(){
+            owl.trigger('owl.prev');
+          })
+         
+        });
+        </script>
+
+        <script>
+          new WOW().init();
+        </script>
+        <script>
+          $(document).on('click',function(){
+            $('.collapse').collapse('hide');
+          })
+        </script>
+  </body>
+</html>
