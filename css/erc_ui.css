@@ -24,7 +24,8 @@ body{
 	line-height: 22px;
 	font-weight: 300;
 	letter-spacing: 2px;
-	font-family: 'Bangers', cursive;
+	/*font-family: 'Bangers', cursive;*/
+	font-family: 'Bebas Neue', cursive;
 }
 .txt_pretitle{
 	font-size: 24px;
@@ -36,11 +37,13 @@ body{
 	line-height: 1;
 	letter-spacing: 5px;
 	font-weight: 700;
-	font-family: 'Bangers', cursive;
+	/*font-family: 'Bangers', cursive;*/
+	font-family: 'Bebas Neue', cursive;
 }
 .txt_head{
 	font-size: 95px;
-	font-family: 'Bangers', cursive;
+	/*font-family: 'Bangers', cursive;*/
+	font-family: 'Bebas Neue', cursive;
 	line-height: 96px;
 }
 
